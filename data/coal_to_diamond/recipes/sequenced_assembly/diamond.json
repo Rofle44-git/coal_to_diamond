@@ -1,0 +1,31 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "minecraft:coal_block"
+    },
+    "loops": 10,
+    "results": [
+        {
+            "item": "minecraft:diamond",
+            "chance": 0.5
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "minecraft:coal_block"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:coal_block"
+                }
+            ]
+        }
+    ],
+    "transitionalItem": {
+        "item": "minecraft:coal_block"
+    }
+}
